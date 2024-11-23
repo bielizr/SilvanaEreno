@@ -2866,3 +2866,30 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #007acc;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #007acc;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #e6f2ff;
+}
+tr:hover {
+  background-color: #cce6ff;
+}
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007acc;
+}
